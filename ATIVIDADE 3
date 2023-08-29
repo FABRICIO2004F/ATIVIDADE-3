@@ -1,0 +1,37 @@
+#include<stdio.h>
+//EXERCICIO 01//
+
+main(){
+
+  int deMaior = 18;
+  int idade;
+
+  printf("digite a sua idade: ");
+  scanf("%d", &idade);
+
+  if(idade >= deMaior){
+    printf("voce e de maior");
+  } else{
+    printf("voce e de menor");
+  }
+  
+}
+
+
+#include<stdio.h>
+//exercicio 2//
+main(){
+
+  float salario_minimo = 1320.0;
+  float salario;
+
+  printf("digite a sua idade: ");
+  scanf("%f", &salario);
+
+  if(salario>= salario_minimo){
+    printf("voce ganha mais que um salario minimo");
+  } else{
+    printf("voce ganha menos que um salario minimo");
+  }
+  
+}
