@@ -35,3 +35,25 @@ main(){
   }
   
 }
+#include <stdio.h>
+#include<math.h>
+
+
+main(){
+//exercicio 3//
+  float altura;
+  float alto = 1.8;
+
+
+  
+  printf("qual sua altura");
+  scanf("%f", &altura);
+
+  if(altura > alto){
+    printf("voce é maior que 1.8");
+  }else{
+    printf("voce é menor que 1.8");
+  }
+
+  
+}
